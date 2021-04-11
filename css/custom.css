@@ -1,0 +1,68 @@
+.tm-brand-box {
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 230px;
+    min-height: 160px;
+    color: white;
+    text-align: center;
+    margin: 30px auto 90px;
+}
+.tm-double-border-1, .tm-double-border-2 {
+    border: 1px solid #fff;
+    position: relative;
+}
+.tm-double-border-2 {
+    top: 10px;
+    left: 10px;
+}
+.tm-brand {
+    padding: 30px;
+}
+.tm-brand {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-top: 6px; 
+}
+#colorlib-aside .position {
+	font-size: 26px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+/*img*/
+.hero-wrap .img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 20px;
+}
+.meta span i {
+	margin-right: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: relative;
+    font-size: 26px;
+}
+.hero-wrap {
+    height: 520px !important;
+}
+.aboutme {
+    height: 520px !important;
+}
+
+@media (max-width: 991px) {
+    .d-lg-hidden {
+        display: none;
+    }
+}
